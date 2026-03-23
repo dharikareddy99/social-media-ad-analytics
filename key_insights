@@ -1,0 +1,82 @@
+# Key Insights — Social Media Ad Analytics
+
+## Project Summary
+Analysis of 1,143 Facebook ad records across 4 age groups (30-34, 35-39, 
+40-44, 45-49) and 2 genders to identify high-performing audience segments 
+and optimize campaign efficiency.
+
+---
+
+## Insight 1 — 30-34 Age Group is the Most Efficient Audience
+- Highest ROAS: 0.34 (best return per dollar spent)
+- Lowest CPA: $22 (cheapest to convert)
+- Second highest conversions despite lower spend
+
+**Recommendation:** Increase ad budget allocation for 30-34 age group
+to maximize return on investment.
+
+---
+
+## Insight 2 — 45-49 Age Group is Underperforming
+- Highest spend: $20,750 (36% of total budget)
+- Lowest ROAS: 0.14 (worst return per dollar spent)
+- Highest CPA: $67 (most expensive to convert)
+
+**Recommendation:** Reduce budget for 45-49 segment and reallocate 
+to 30-34 group for better efficiency.
+
+---
+
+## Insight 3 — Massive Funnel Drop-off
+- Impressions: 213,434,828
+- Clicks: 38,165 (0.018% CTR)
+- Conversions: 1,079 (2.8% of clicks converted)
+
+**Recommendation:** Improve ad creative to increase CTR and optimize 
+landing pages to improve conversion rate from clicks.
+
+---
+
+## Insight 4 — Males Convert Better Than Females
+- Male conversion rate: 10%
+- Female conversion rate: 8%
+- Males account for 54% of total conversions
+
+**Recommendation:** For conversion-focused campaigns prioritize male 
+targeting. For awareness campaigns maintain balanced gender targeting.
+
+---
+
+## Insight 5 — Top Performing Ad (ID: 777105)
+- ROAS: 5.56 (24x better than average)
+- Age: 45-49, Gender: Male
+- Spent: $0.18, Conversions: 1
+
+**Recommendation:** Analyze the creative and targeting of ad 777105 
+and replicate its approach across other campaigns.
+
+---
+
+## Insight 6 — Interest Category ~25 Drives Most Spend
+- Highest spend concentration around interest category 25
+- Suggests strong audience affinity in this interest segment
+
+**Recommendation:** Deep dive into interest category 25 to understand 
+audience profile and create targeted campaigns.
+
+---
+
+## Overall Business Recommendation
+Reallocating just 20% of the 45-49 budget to the 30-34 segment could 
+potentially improve overall ROAS from 0.23 to 0.31 — a 35% improvement 
+in campaign efficiency.
+
+---
+
+## Tools Used
+- Python (Pandas, NumPy) — data cleaning and feature engineering
+- SQL (SQLite) — business queries and aggregations  
+- Power BI — interactive 4-page dashboard
+
+## Dataset
+[Kaggle — Clicks Conversion Tracking](https://www.kaggle.com/datasets/loveall/clicks-conversion-tracking)
